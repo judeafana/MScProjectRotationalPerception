@@ -20,6 +20,9 @@
     12.	BlackScene_StandingNoCues
     13.	BlackScene_End
     
+5. Build and Run
+
+<hr>
 ## Main scripts jobs:
 1.	**Spawner**: is responsible of transition between trials and levels, spawning cubes differently according to the level and mode, displaying the numbers and arrows of 				each new level.
 2.	**MoveAround**: rotates the environment around the player (providing the inconsistency).
