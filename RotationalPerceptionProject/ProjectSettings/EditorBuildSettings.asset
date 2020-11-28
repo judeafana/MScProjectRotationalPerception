@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneSeatedConsistent.unity
+    guid: 140d17bda14d8404ea071c1f52459885
+  - enabled: 1
+    path: Assets/Scenes/BlackScene_SeatedConsistent.unity
+    guid: 5ddb83c4f27c9a14e950a87fe508a437
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneSeatedInconsistent.unity
+    guid: 219b704d294046f42bad2cc71c147a31
+  - enabled: 1
+    path: Assets/Scenes/BlackScene_SeatedInconsistent.unity
+    guid: c8e73051804f4cf4e88f27057cabf7b1
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneSeatedNoCues.unity
+    guid: d255d70dd7e60354d90aa57ece08b13b
+  - enabled: 1
+    path: Assets/Scenes/BlackScene_SeatedNoCues.unity
+    guid: 2d04dc0359a099b418521902295a3f80
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneStandingConsistent.unity
+    guid: 6015b6663998fa64c8b9cee1839b06bf
+  - enabled: 1
+    path: Assets/Scenes/BlackScene_StandingConsistent.unity
+    guid: 0b9613ae3c531034688e1ea7eaf27160
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneStandingInconsistent.unity
+    guid: 349dcaf284ac845458b56e3dd5443b66
+  - enabled: 1
+    path: Assets/Scenes/BlackScene_StandingInconsistent.unity
+    guid: 3fc0923f8bfe97b4899e011da089d076
+  - enabled: 1
+    path: Assets/Scenes/InteractiveSceneStandingNoCues.unity
+    guid: 0517dad363d2f0c499ea9bc4ce20285d
+  - enabled: 1
+    path: Assets/Scenes/BlackScene_StandingNoCues.unity
+    guid: 9b4b2c8775e96f142998a1b46db32563
+  - enabled: 1
+    path: Assets/Scenes/BlackScene_End.unity
+    guid: 31a71cbe0cd796740b11b99f47bb2eac
+  m_configObjects: {}
