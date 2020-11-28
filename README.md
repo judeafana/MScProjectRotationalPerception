@@ -33,7 +33,9 @@
 6.	**CalculateAngles**: Calculate the pointing angle from the original point.
 7.	**GoToScene**: Transition between level.
 8.	**QuitApp**: quit and exit once done with the last level .
-	
+
+---
+
 ## HandControllers hierarchy:	
 <pre>
 OVRPlayerController -> OVRCameraRig -> TrackingSpace -> LeftHandAnchor-> Pc_BaseBall_Bat
