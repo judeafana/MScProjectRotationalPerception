@@ -28,7 +28,7 @@
 1.	**Spawner**: is responsible of transition between trials of levels, spawning cubes differently according to the level and mode, displaying the numbers and arrows of 				each new level.
 2.	**MoveAround**: rotates the environment around the player (providing the inconsistency).
 3.	**RaycastingPoint**: Detects clicks when pointing and save it into the CSV file with the level’s information.
-4.	**LevelFader & LevelFader1**: applying the fade in and out effect with the animation.
+4.	**LevelFader**: applying the fade in and out effect with the animation.
 5.	**FadeBackToScene**: transition from pointing scene to the interactive one.
 6.	**CalculateAngles**: Calculate the pointing angle from the original point.
 7.	**GoToScene**: Transition between level.
