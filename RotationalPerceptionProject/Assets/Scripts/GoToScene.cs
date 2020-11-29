@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This script transitions between levels, meaning the different environments
 
 public class GoToScene : MonoBehaviour
 {

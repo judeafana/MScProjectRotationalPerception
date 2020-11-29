@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+//This script calculates the pointing angle from the original point
 
 public class CalculateAngle : MonoBehaviour
 {
@@ -12,9 +12,7 @@ public class CalculateAngle : MonoBehaviour
     public float angle ;
     Vector3 direction;
     float sign = 1;
-
-
-
+    
     void Update()
     {
 

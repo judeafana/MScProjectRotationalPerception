@@ -3,38 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+////This script applies the fade in and out effect with the animation
+
 public class LevelFader1 : MonoBehaviour
 {
     public Animator animator;
-   public Spawner checkingFlag;
+    public Spawner checkingFlag;
     public int levelToLoad;
-
-
-
-    //public RaycastingPoint sceneNum;
-  // public RaycastingPoint checkClick
-
-    // Update is called once per frame
 
     private void Start()
     {
-        levelToLoad = SceneManager.GetActiveScene().buildIndex + 1;
-      //  animator = GetComponent<Animator>();
-     //   checkingFlag = GetComponent<Spawner>();
-      //  checkClick = GetComponent<RaycastingPoint>();
-      //  sceneNum = GetComponent<RaycastingPoint>();
-      //  levelToLoad = sceneNum.goBackToScene;
-        //checkClick = checkClick.clickFlag;
+        levelToLoad = SceneManager.GetActiveScene().buildIndex + 1;      
     }
     void Update()
     {
         if (checkingFlag.checkFlag)
         {
             FadeOut();
-            //checkingFlag.checkFlag = false;
         }
-
-     
     }
 
    public void FadeOut ()
@@ -48,7 +34,6 @@ public class LevelFader1 : MonoBehaviour
 
     public void OnFadeComplete()
     {
-        Debug.Log("used this amazing wonderful funtion to see if the onfade complete works or not!!!");
         SceneManager.LoadScene(levelToLoad);
     }
 }

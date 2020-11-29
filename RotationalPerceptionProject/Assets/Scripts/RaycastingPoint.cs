@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.SceneManagement;
 
+//Detects clicks when pointing and save it into the CSV file with the level’s information.
 
 public class RaycastingPoint : MonoBehaviour
 {
@@ -17,11 +18,10 @@ public class RaycastingPoint : MonoBehaviour
     float pointingAngle;
     //use bool flag instead to get it 1 time only
 
-
     public AudioSource audio;
 
-
     string textHeaders;
+
     void Start()
     {
         int currentLevel = SceneManager.GetActiveScene().buildIndex;

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This script transitions the player from pointing scene to the interactive one
+
+
 public class FadeBackToScene : MonoBehaviour
 {
    public Animator animator;
@@ -23,7 +26,6 @@ public class FadeBackToScene : MonoBehaviour
             sceneCounter = PlayerPrefs.GetInt("sceneCounter");
             sceneCounter += 1;
             PlayerPrefs.SetInt("sceneCounter", sceneCounter);
-
         }
 
         else

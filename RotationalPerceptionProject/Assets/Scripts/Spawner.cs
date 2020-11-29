@@ -5,6 +5,8 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using System.IO;
 
+//: This script is responsible of transition between trials of levels, spawning cubes differently according to the level and mode, displaying the numbers and arrows of each new level.
+
 
 public class Spawner : MonoBehaviour
 {
